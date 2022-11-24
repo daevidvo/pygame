@@ -28,6 +28,6 @@ while True:
     # the rendering of the text will always go over the top of the other layers since it's rendering as a display surface instead of a regular surface
     screen.blit(text_surafce,(600,0))
     pygame.display.update()
-    clock.tick(60)
+    clock.tick(120)
     
 
